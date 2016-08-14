@@ -1,0 +1,1 @@
+<input class="kirby-zipdl-checkbox" type="checkbox" name="<?php echo $file->filename() ?>" form="kirby-zipdl-form">

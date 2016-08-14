@@ -1,0 +1,8 @@
+{
+  "name": "kirby-zipdownload",
+  "description": "This plugin provides basic capacity to select & download multiple image files as a zip.",
+  "author": "Joachim Robert <joachim.robert@gmail.com>",
+  "version": "0.1",
+  "type": "kirby-plugin",
+  "license": "CC BY-SA 3.0"
+}
