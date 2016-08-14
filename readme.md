@@ -1,6 +1,7 @@
 # Kirby ZipDownload
 
-This plugin provides basic capacity to select & download multiple files as a zip.
+This [Kirby CMS](http://getkirby.com) plugin provides basic capacity to select & download multiple files as a zip.
+
 
 ## Version
 
