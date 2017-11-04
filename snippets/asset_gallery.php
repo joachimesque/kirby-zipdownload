@@ -22,9 +22,9 @@
   <?php foreach($page->files()->sortBy('sort', 'asc') as $file): ?>
   <?php snippet('zipdl_checkbox', array('file' => $file)); ?>
 
-  <?php if($file->type() == image): ?>
+  <?php if($file->type() == 'image'): ?>
     <figure>
-      <img src="<?php echo $file->url() ?>" alt="<?php echo $page->title()->html() ?>">
+      <img src="<?php echo $file->crop(300, 300)->url() ?>" alt="<?php echo $page->title()->html() ?>">
     </figure>
   <?php else : ?>
     <p>
