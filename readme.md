@@ -10,8 +10,8 @@ This [Kirby CMS](http://getkirby.com) plugin provides basic capacity to select &
 ## Installation
 
 1. Copy the plugin folder to `site/plugins`.
-2. Make `kirby-zipdownload/temp` writable.
-3. Setup your server's `cron` file to execute `kirby-zipdownload/cron.php` regularly.
+2. Make the folder `kirby-zipdownload/temp` writable.
+3. Setup your server's `cron` file to execute `kirby-zipdownload/cron.php` regularly, so it empties `kirby-zipdownload/temp`.
 4. Modify your template files and customize the snippets to your needs.
 
 ## Usage
@@ -45,7 +45,6 @@ The checkboxes can be styled and scripted at will, it's the checked/unchecked st
 
 ## License
 
-CREATIVE COMMONS Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+MIT License
 
-https://creativecommons.org/licenses/by-sa/3.0/
 
